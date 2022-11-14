@@ -1,0 +1,31 @@
+{
+  "name": "dkinev/vision-yandex-cloud",
+  "description": "API for detect words in image by Vision Yandex Cloud",
+  "type": "library",
+  "keywords": [
+    "vision",
+    "api",
+    "php",
+    "batchAnalyze"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": ">=7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "dkinev\\VisionYandexCloud\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "dkinev\\VisionYandexCloud\\Test\\": "Test/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dmitry Kinev",
+      "email": "dk.psy@inbox.ru"
+    }
+  ]
+}
